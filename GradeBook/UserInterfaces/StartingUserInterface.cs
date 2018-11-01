@@ -40,7 +40,7 @@ namespace GradeBook.UserInterfaces
             }
             var name = parts[1];
             var type = parts[2].ToLower();
-            var isweighted = bool.Parse(parts[4]);
+            var isweighted = bool.Parse(parts[3]);
 
             BaseGradeBook gradeBook;
             switch(type)
